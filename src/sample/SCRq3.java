@@ -11,7 +11,7 @@ public class SCRq3 {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","driver/chromedriver");
 		WebDriver w=new ChromeDriver();
-		
+		System.out.println("hello");
 		w.get("https://www.toolsqa.com/");
 		WebElement up = w.findElement(By.xpath("//span [contains(text(),'Benefit')]"));
 		JavascriptExecutor js=(JavascriptExecutor)w;
