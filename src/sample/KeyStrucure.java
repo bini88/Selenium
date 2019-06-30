@@ -28,8 +28,12 @@ public class KeyStrucure {
 		//r.keyPress(KeyEvent.VK_COPY);
 		//r.keyPress(KeyEvent.VK_C);
 		//r.keyRelease(KeyEvent.VK_CONTROL);
-		r.keyRelease(KeyEvent.VK_COPY);
-		w.findElement(By.id("pass")).click();
+		r.keyPress(KeyEvent.VK_META);
+		r.keyPress(KeyEvent.VK_TAB);
+		r.keyRelease(KeyEvent.VK_META);
+		r.keyRelease(KeyEvent.VK_TAB);
+		//r.keyRelease(KeyEvent.VK_COPY);
+		//w.findElement(By.id("pass")).click();
 		//r.keyPress(KeyEvent.VK_CONTROL);
 		r.keyPress(KeyEvent.VK_PASTE);
 		//r.keyRelease(KeyEvent.VK_CONTROL);
