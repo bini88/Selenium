@@ -43,7 +43,7 @@ public class Dropdown {
 		WebElement fsl = s.getFirstSelectedOption();
 		System.out.println(fsl.getText());
 		s.deselectByIndex(0);
-		//w.quit();
+		w.quit();
 		
 
 	}
